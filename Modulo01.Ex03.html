@@ -1,0 +1,27 @@
+<html>
+
+<head>
+
+<body>
+    <script>
+        function temHabilidade(skills) {
+
+            // "Não igual" (!==)
+            // Site abaixo informando como funciona o indexOf
+            // https://www.devmedia.com.br/javascript-indexof-encontrando-a-posicao-de-um-caractere-ou-string/39422
+            
+            if (skills.indexOf('ReactJS') >= 0) {
+                return console.log("Tem Skills");
+            }
+            else {
+                return console.log("Não tem Skills");
+            }
+        }
+        const skills = ["Javascript", "ReactJS", "React Native"];
+        temHabilidade(skills); // true ou false
+
+    </script>
+</body>
+</head>
+
+</html>

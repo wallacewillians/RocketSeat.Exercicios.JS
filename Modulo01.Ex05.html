@@ -1,0 +1,33 @@
+<html>
+
+<head>
+
+<body>
+    <script>
+        var usuarios = [
+            {
+                nome: "Diego",
+                habilidades: ["Javascript", "ReactJS", "Redux"]
+            },
+            {
+                nome: "Gabriel",
+                habilidades: ["VueJS", "Ruby on Rails", "Elixir"]
+            }
+        ];
+
+        for (let dados of usuarios)
+            console.log("O ", dados.nome, " possui as habilidades: ", dados.habilidades.join(", "));
+
+        // O Diego possui as habilidades: Javascript, ReactJS, Redux
+        //O Gabriel possui as habilidades: VueJS, Ruby on Rails, Elixir
+
+        // Trabalhar com o .Join
+        //  https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/join
+        // Trabalhar com o for no JS
+        //  https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/for...of
+
+    </script>
+</body>
+</head>
+
+</html>
